@@ -1,0 +1,17 @@
+install third party librarie which is a router:
+-> go get -u github.com/gorilla/mux
+-> go mod init
+database using sequlite three
+-> go get -u  github.com/mattn/go-sqlite3
+curl localhost:9003 //start the server in vs code
+module can be one of two things:
+1.It can be library that contains functions that you call and relate(mux router we added)
+2.module can also be an application
+go mod init example.com/practice //it used to track the application dependencies
+go mod edit -replace example.com/practice=../practice
+
+go mod init example.com/practiceit  
+go mod edit -replace example.com/backend=../backend
+go mod tidy
+go run .
+   
