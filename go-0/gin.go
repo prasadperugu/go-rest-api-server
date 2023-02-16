@@ -15,8 +15,8 @@ type User struct {
 }
 
 var users = []User{
-	{ID: 1, Name: "Alice", Email: "alice@example.com"},
-	{ID: 2, Name: "Bob", Email: "bob@example.com"},
+	{ID: 1, Name: "Nandu", Email: "nandu.ahmed@onymos.com"},
+	{ID: 2, Name: "Prasad", Email: "prasad.perugu@onymos.com"},
 }
 
 func main() {
